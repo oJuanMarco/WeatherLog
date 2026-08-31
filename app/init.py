@@ -7,8 +7,8 @@ from app.data.daily_weather import daily_data
 import asyncio
 
 
-def init():
-    # await asyncio.sleep(3)
+async def init():
+    await asyncio.sleep(3)
     start = session()
     openmeteo = client(start)
     semiresponse = params(openmeteo)
@@ -22,4 +22,3 @@ def init():
     daily_dataframe = pd.DataFrame(data = daily_data(response))
 
     return daily_dataframe
-    # print("\nDados da semana\n", daily_dataframe)
