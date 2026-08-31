@@ -4,9 +4,11 @@ from app.data.client import client
 from app.data.setup import session
 from app.data.current_weather import current_data
 from app.data.daily_weather import daily_data
+import asyncio
 
 
-def init():
+async def init():
+    await asyncio.sleep(3)
     start = session()
     openmeteo = client(start)
     semiresponse = params(openmeteo)
