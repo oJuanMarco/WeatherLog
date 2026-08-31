@@ -1,7 +1,7 @@
-Buscar dados
+//Buscar dados
     SP - 7 dias
     data / temperatura / sensação termica / maxima / minima / chuva 
-Limpar dados
+//Limpar dados
 Registrar dados
-Análise
-Exportação
+Análise + Exportação
+Pytest+readme+docstrings+try/catches+revisão
