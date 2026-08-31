@@ -1,5 +1,7 @@
+from config import config
+
 def params(openmeteo):
-    url = "https://api.open-meteo.com/v1/forecast"
+    url = config()
 
     params = {
         "latitude": 52.52,
