@@ -2,4 +2,8 @@ pandas
 requests
 SQLAlchemy
 openmeteo-requests
-requests-cache retry-requests numpy pandas
+pymysql
+requests-cache 
+retry-requests 
+numpy
+python-dotenv
