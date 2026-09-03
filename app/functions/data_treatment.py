@@ -13,3 +13,4 @@ async def treat(db):
             db[column] = db[column].astype(float)
 
     print(db)
+    return db
