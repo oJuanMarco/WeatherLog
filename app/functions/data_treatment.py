@@ -1,5 +1,5 @@
 import pandas as pd
-from app.init import init
+from app.functions.init import init
 import asyncio
 
 async def treat(db):

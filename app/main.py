@@ -1,6 +1,6 @@
-from app.loading import load
-from app.init import init
-from app.data_treatment import treat
+from app.functions.loading import load
+from app.functions.init import init
+from app.functions.data_treatment import treat
 import asyncio
 
 async def main():
