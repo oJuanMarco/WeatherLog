@@ -1,3 +1,4 @@
 __pycache__
 .env
 __init__.py
+week_weather_data.sqlite
