@@ -1,5 +1,5 @@
 from config import config
-
+# define parametroes à serem solicitados à API e sua ordem em cime da url do config
 def params(openmeteo):
     try:
         url = config()

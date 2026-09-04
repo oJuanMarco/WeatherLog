@@ -1,13 +1,12 @@
 import requests_cache
 from retry_requests import retry
-
+# inicia conexão user-API para consulta de dados, define armazenamento de dados em SQLite e tenta denovo em caso de erro
 def session():
      try:
-          # Setup the Open-Meteo API client with cache and retry on error
-          cache_session = requests_cache.CachedSession('week_weather_data', expire_after = 3600)
-          retry_session = retry(cache_session, retries = 5, backoff_factor = 0.2)
+         cache_session = requests_cache.CachedSession('week_weather_data', expire_after = 3600)
+         retry_session = retry(cache_session, retries = 5, backoff_factor = 0.2)
 
-          return retry_session
+         return retry_session
 
      except httpx.TimeoutException:
         print("A API demorou muito para responder (Timeout).")

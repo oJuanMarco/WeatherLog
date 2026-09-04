@@ -4,5 +4,5 @@
 //Limpar dados
 //Registrar dados
 //Análise + //Exportação
-//Pytest+(try/catches+revisão)
+//Pytest+//(try/catches+revisão)
 readme+docstrings

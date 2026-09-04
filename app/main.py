@@ -3,7 +3,7 @@ from app.functions.init import init
 from app.functions.data_treatment import treat
 from app.database.connection import export
 import asyncio
-
+# função de gerenciamento de código, definindo a ordem de chamada conforme seu andamento
 async def main():
     try:
         await asyncio.gather(

@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 from app.database.report import report
 import asyncio
 import questionary
-
+# define conexão de dados tratados e instancia tabela para um data_base em mySQL, além de realizar a chamada pra export em CSV
 async def export(db):
     try:
         db = await db

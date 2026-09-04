@@ -1,5 +1,5 @@
 import asyncio
-
+# somente função de espera de tempo pra mostrar async funcionando, uma vez que a conexão é extremamente veloz
 async def load():
     try:
         print("Loading data...")

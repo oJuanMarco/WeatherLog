@@ -1,5 +1,5 @@
 import openmeteo_requests
-
+# chamada de cliente da API para consumo
 def client(sessao):
     try:
         openmeteo = openmeteo_requests.Client(session = sessao)

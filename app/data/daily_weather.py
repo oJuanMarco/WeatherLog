@@ -1,5 +1,5 @@
 import pandas as pd
-
+# chamada da parte de clima semanal da API
 def daily_data(response):
     try:
         daily = response.Daily()

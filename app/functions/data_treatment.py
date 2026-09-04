@@ -1,7 +1,7 @@
 import pandas as pd
 from app.functions.init import init
 import asyncio
-
+# função de tratamento de dados recebidos da API para futuro export e permanência
 async def treat(db):
     try:
         db = await db

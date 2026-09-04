@@ -1,6 +1,6 @@
 import pandas as pd
 import asyncio
-
+# função de exportar relatório em CSV com database construído + informção adicionais
 def report(db):
     try:
         db.loc[0,'temperatura_media_semanal'] = db['temperatura_media'].mean()

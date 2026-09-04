@@ -1,3 +1,4 @@
+# chamada da parte de clima atual da API e printa para o usuário ao consultar
 def current_data(response):
     try:
         current = response.Current()

@@ -6,7 +6,7 @@ from app.data.current_weather import current_data
 from app.data.daily_weather import daily_data
 import asyncio
 
-
+# função de chamada de conexão com API e integração de dados para construção de database em Pandas em tempo real
 async def init():
     try:
         await asyncio.sleep(3)
@@ -17,9 +17,7 @@ async def init():
         response = semiresponse[0]
         print(f"Local: {response.Timezone()}")
 
-        # Process current data. The order of variables needs to be the same as requested.
         current_data(response)
-        # Process daily data. The order of variables needs to be the same as requested.
         daily_dataframe = pd.DataFrame(data = daily_data(response))
 
         return daily_dataframe

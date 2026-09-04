@@ -1,6 +1,6 @@
 from app.main import main
 import asyncio
- 
+# função de execução do código 
 if __name__ == "__main__":
 	try:
 		asyncio.run(main())
