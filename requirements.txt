@@ -8,3 +8,4 @@ retry-requests
 numpy
 python-dotenv
 questionary
+pytest
