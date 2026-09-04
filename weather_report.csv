@@ -1,0 +1,8 @@
+data,temperatura_media,sensacao_termica_media,maxima,minima,chances_de_chuva,volume_de_chuva(mm),temperatura_media_semanal,sensacao_termica_media_semanal,volume_de_chuva_semanal_previsto,maxima_semanal,minima_semanal
+2026/09/04,19.9,19.0,25.4,15.3,90.0,6.8,17.66,16.49,7.55,25.4,11.1
+2026/09/05,16.8,14.2,20.5,13.5,70.0,0.3,,,,,
+2026/09/06,16.7,15.1,20.9,12.7,0.0,0.0,,,,,
+2026/09/07,18.3,18.0,21.5,13.6,18.0,0.0,,,,,
+2026/09/08,20.1,20.5,24.2,14.5,41.0,0.3,,,,,
+2026/09/09,16.3,14.6,20.7,12.0,5.0,0.0,,,,,
+2026/09/10,15.5,14.0,19.8,11.1,12.0,0.15,,,,,
